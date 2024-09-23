@@ -31,5 +31,10 @@ public class Main {
         q1.opcaoE = "E) O Grito";
         q1.correta = "C";
 
+        q1.escrevaQuestao();
+        String resposta = q1.leiaResposta();
+        q1.isCorreta(resposta);
+
+
     }
 }
