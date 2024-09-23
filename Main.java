@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public void main(String[] args) {
+    public static void main(String[] args) {
 
 
         //Cabeçalho
@@ -24,3 +24,12 @@ public class Main {
 //
         Questao q1 = new Questao();
         q1.pergunta = "1- Qual é o nome da famosa pintura de Leonardo da Vinci que retrata uma mulher com um sorriso enigmático?";
+        q1.opcaoA = "A) A Noite Estrelada";
+        q1.opcaoB = "B) A Última Ceia";
+        q1.opcaoC = "C) Mona Lisa";
+        q1.opcaoD = "D) O Nascimento de Vênus";
+        q1.opcaoE = "E) O Grito";
+        q1.correta = "C";
+
+    }
+}
