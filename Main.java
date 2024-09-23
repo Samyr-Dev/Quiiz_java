@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Aluno: Samyr Silva Tertuliano Deusdará.");
 
         //Nome_professor
-        System.out.println("Professor: Brenno.");
+        System.out.println("Professor: Brenno Pimenta.");
         System.out.println("-----------------------------------------");
         //Boas_vindas
         System.out.println("");
@@ -48,6 +48,46 @@ public class Main {
         q2.escrevaQuestao();
         resposta = q2.leiaResposta();
         q2.isCorreta(resposta);
+        //
+        Questao q3 = new Questao();
+        q3.pergunta = "3- Qual o nome do personagem de Robert Pattinson na saga 'Crepúsculo'?";
+        q3.opcaoA = "A) Bela Swan";
+        q3.opcaoB = "B) Carlisle Cullen";
+        q3.opcaoC = "C) Eduard Swan";
+        q3.opcaoD = "D) Edward Cullen";
+        q3.opcaoE = "E) Jacob Black";
+        q3.correta = "D";
 
+        q3.escrevaQuestao();
+        resposta = q3.leiaResposta();
+        q3.isCorreta(resposta);
+//
+
+        Questao q4 = new Questao();
+        q4.pergunta = "4- Na saga 'Harry Potter' houve uma perca de uma gama de personagens na adaptação do livro para o filme. Qual o nome do Elfo Doméstico que não aparece nos filmes, tendo participação nos livros?";
+        q4.opcaoA = "A) Monstro";
+        q4.opcaoB = "B) Dobby";
+        q4.opcaoC = "C) Winky";
+        q4.opcaoD = "D) Edwiges";
+        q4.opcaoE = "E) Fawkes";
+        q4.correta = "C";
+
+        q4.escrevaQuestao();
+        resposta = q4.leiaResposta();
+        q4.isCorreta(resposta);
+//
+        Questao q5 = new Questao();
+        q5.pergunta = "5- Qual nome Malorie coloca em sua filha na renomada saga 'Bird Box'?";
+        q5.opcaoA = "A) Olympia";
+        q5.opcaoB = "B) Garota";
+        q5.opcaoC = "C) Malorie";
+        q5.opcaoD = "D) Samantha";
+        q5.opcaoE = "E) Lydia";
+        q5.correta = "A";
+
+        q5.escrevaQuestao();
+        resposta = q5.leiaResposta();
+        q5.isCorreta(resposta);
+//
     }
 }
