@@ -22,3 +22,5 @@ public class Main {
         System.out.println("Olá, Seja bem-vindo(a). Você irá responder 15 questões de múltipla escolha acerca da arte. Essas questões abrangem diferentes formas de arte, desde literatura clássica até cinema e escultura. Diverta-se ;)");
 
 //
+        Questao q1 = new Questao();
+        q1.pergunta = "1- Qual é o nome da famosa pintura de Leonardo da Vinci que retrata uma mulher com um sorriso enigmático?";
