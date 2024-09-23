@@ -35,6 +35,19 @@ public class Main {
         String resposta = q1.leiaResposta();
         q1.isCorreta(resposta);
 
+        //
+        Questao q2 = new Questao();
+        q2.pergunta = "2-Quem dirigiu o filme 'O Poderoso Chefão', considerado um clássico do cinema?";
+        q2.opcaoA = "A) Martin Scorsese";
+        q2.opcaoB = "B) Steven Spielberg";
+        q2.opcaoC = "C) Stanley Kubrick";
+        q2.opcaoD = "D) Quentin Tarantino";
+        q2.opcaoE = "E) Francis Ford Coppola";
+        q2.correta = "E";
+
+        q2.escrevaQuestao();
+        resposta = q2.leiaResposta();
+        q2.isCorreta(resposta);
 
     }
 }
